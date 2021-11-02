@@ -15,13 +15,13 @@ let toplam2=0;
 
 for (let i = 1; i < sayi1; i++){
     if(sayi1%i==0){
-    toplam1 +=i;
+    toplam1=toplam1+i;
 }
 }
 
 for (let j = 1; j < sayi2; j++) {
     if(sayi2%j==0){
-        toplam2+=j
+        toplam2=toplam2+j
     }
     
 }
@@ -45,7 +45,7 @@ for (let sayi=1; sayi <=1000; sayi++) {
     let toplam=0;
     for (let i = 1; i < sayi; i++) {
        if (sayi%i==0) {
-           toplam+=i;
+           toplam=toplam+i;
        }
         
     }
