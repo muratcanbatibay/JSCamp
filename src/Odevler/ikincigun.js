@@ -90,4 +90,10 @@ let sayac=0;
 asalSayi();
     
 
-    
+    function ref() {
+          let sayi1=10;
+          let sayi2=sayi1;
+           sayi1=20
+            console.log(sayi2)
+    }
+    ref();
